@@ -1,0 +1,6 @@
+if SHIELD_ARDUX_LEFT
+
+config ZMK_KEYBOARD_NAME    
+    default "ardux_left"
+
+endif
