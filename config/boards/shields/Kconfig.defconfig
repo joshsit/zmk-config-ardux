@@ -1,6 +1,6 @@
-if SHIELD_ARDUX_LEFT
+if SHIELD_THE_PAINTBRUSH
 
 config ZMK_KEYBOARD_NAME    
-    default "ardux_left"
+    default "the_paintbrush"
 
 endif
