@@ -25,8 +25,8 @@
 
 // Define Offsets
 #define LEADING_NONES NONE(0,0,0)
-#define MIDDLE_NONES NONE(0,0,1)
-#define TRAILING_NONES NONE(0,0,8)
+#define MIDDLE_NONES NONE(0,0,0)
+#define TRAILING_NONES NONE(0,0,0)
 
 
 // Include main ardux.io keymap
