@@ -30,7 +30,7 @@
 #define TRAILING_NONES NONE(0,0,0)
 
 #if !defined ARDUX_BT_TOP
-#define ARDUX_BT_TOP &mwh SCROLL_UP
+#define ARDUX_BT_TOP &mkp LCLK
 #endif
 #if !defined ARDUX_BT_BOTTOM
 #define ARDUX_BT_BOTTOM &bootloader
