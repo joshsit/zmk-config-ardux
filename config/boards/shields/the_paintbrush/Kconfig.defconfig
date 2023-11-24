@@ -1,6 +1,6 @@
 if SHIELD_THE_PAINTBRUSH
 
 config ZMK_KEYBOARD_NAME    
-    default "the_paintbrush"
+    default "Bar Soap"
 
 endif
