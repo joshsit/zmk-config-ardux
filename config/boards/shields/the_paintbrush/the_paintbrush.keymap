@@ -28,12 +28,6 @@
 #define MIDDLE_NONES NONE(0,0,1)
 #define TRAILING_NONES NONE(0,0,8)
 
-if !defined ARDUX_BT_TOP
-define ARDUX_BT_TOP &bootloader
-endif
-if !defined ARDUX_BT_BOTTOM
-define ARDUX_BT_BOTTOM &bootloader
-endif
 
 // Include main ardux.io keymap
 #include "../../../ardux.dtsi"
