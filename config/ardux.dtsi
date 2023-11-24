@@ -213,7 +213,7 @@
 #define LAYER_ID_CUSTOM 6
 #define LAYER_ID_MOUSE 7
 #define LAYER_ID_BIG_SYM 8
-//#define LAYER_ID_BIG_FUNCTION 8
+#define LAYER_ID_BIG_FUNCTION 9
 
 /*****************************************
  * Standard ARDUX combo definitions
@@ -511,7 +511,7 @@
 			bindings = <
 				LEADING_NONES
 				//&kp PG_UP                                   &kp HOME  &kp UP    &kp END
-				&mwh SCROLL_UP	&mwh SCROLL_DOWN	&mkp LCLK		&mkp RCLK
+				&mmv MOVE_LEFT  &mmv MOVE_DOWN  	&mmv MOVE_UP	&mmv MOVE_RIGHT
 				MIDDLE_NONES
 				&kp PG_DN                                   &kp LEFT  &kp DOWN  &kp RIGHT
 				TRAILING_NONES
