@@ -211,9 +211,9 @@
 #define LAYER_ID_NAVIGATION 4
 #define LAYER_ID_BT_SEL 5
 #define LAYER_ID_CUSTOM 6
-#define LAYER_ID_BIG_SYM 7
-#define LAYER_ID_BIG_FUNCTION 8
-#define LAYER_ID_MOUSE 9
+#define LAYER_ID_MOUSE 7
+#define LAYER_ID_BIG_SYM 8
+#define LAYER_ID_BIG_FUNCTION 9
 
 /*****************************************
  * Standard ARDUX combo definitions
@@ -402,16 +402,6 @@
 				TRAILING_NONES
 			>;
 		};
-		mouse {
-			label = "Mouse";
-			bindings = <
-				LEADING_NONES
-				&mwh SCROLL_UP	&mwh SCROLL_DOWN	&mkp LCLK		&mkp RCLK
-				MIDDLE_NONES
-				&mmv MOVE_LEFT  &mmv MOVE_DOWN  	&mmv MOVE_UP	&mmv MOVE_RIGHT
-				TRAILING_NONES
-			>;
-		};
 		ARDUX_LAYER_CUSTOM
 		#if defined ARDUX_BIG
 		big_ardux_symbol {
@@ -535,7 +525,6 @@
 				TRAILING_NONES
 			>;
 		};
-
 		ARDUX_LAYER_CUSTOM
 		#if defined ARDUX_BIG
 		big_ardux_symbol {
