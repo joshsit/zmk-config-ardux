@@ -525,16 +525,7 @@
 				TRAILING_NONES
 			>;
 		};
-		mouse {
-			label = "Mouse";
-			bindings = <
-				LEADING_NONES
-				&mwh SCROLL_UP	&mwh SCROLL_DOWN	&mkp LCLK		&mkp RCLK
-				MIDDLE_NONES
-				&mmv MOVE_LEFT  &mmv MOVE_DOWN  	&mmv MOVE_UP	&mmv MOVE_RIGHT
-				TRAILING_NONES
-			>;
-		};
+		
 		ARDUX_LAYER_CUSTOM
 		#if defined ARDUX_BIG
 		big_ardux_symbol {
@@ -566,6 +557,17 @@
 			>;
 		};
 		#endif
+
+		mouse {
+			label = "Mouse";
+			bindings = <
+				LEADING_NONES
+				&mwh SCROLL_UP	&mwh SCROLL_DOWN	&mkp LCLK		&mkp RCLK
+				MIDDLE_NONES
+				&mmv MOVE_LEFT  &mmv MOVE_DOWN  	&mmv MOVE_UP	&mmv MOVE_RIGHT
+				TRAILING_NONES
+			>;
+		};
 	};
 };
 #endif
