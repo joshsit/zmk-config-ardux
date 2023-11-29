@@ -37,7 +37,7 @@
 #endif
 
 &mmv {
-    time-to-max-speed-ms = <250>;
+    time-to-max-speed-ms = <120>;
 };
 
 &mwh {
