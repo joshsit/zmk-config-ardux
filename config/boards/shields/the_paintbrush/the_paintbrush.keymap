@@ -36,5 +36,13 @@
 #define ARDUX_BT_BOTTOM &bootloader
 #endif
 
+&mmv {
+    time-to-max-speed-ms = <250>;
+};
+
+&mwh {
+    acceleration-exponent=<2>;
+};
+
 // Include main ardux.io keymap
 #include "../../../ardux.dtsi"
