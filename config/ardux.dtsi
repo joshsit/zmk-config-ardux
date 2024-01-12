@@ -507,9 +507,9 @@
 			label = "Nav";
 			bindings = <
 				LEADING_NONES
-				&mwh SCROLL_UP	&mwh SCROLL_DOWN	&mkp LCLK		&mkp RCLK
+				&msc SCROLL_UP		&msc SCROLL_DOWN		&mkp MB1			&mkp MB2
 				MIDDLE_NONES
-				&mmv MOVE_LEFT  &mmv MOVE_UP  	&mmv MOVE_DOWN	&mmv MOVE_RIGHT
+				&mmv MOVE_LEFT  	&mmv MOVE_UP			&mmv MOVE_DOWN		&mmv MOVE_RIGHT
 				TRAILING_NONES
 			>;
 		};
