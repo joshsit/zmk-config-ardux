@@ -70,8 +70,8 @@
 
 
 &mmv {
-  acceleration-exponent = <0>;      // 1 
-  time-to-max-speed-ms = <0>;    // 40
+  acceleration-exponent = <2>;      // 1 
+  time-to-max-speed-ms = <500>;    // 40
   delay-ms = <0>;                   // 0
 };
 
@@ -81,7 +81,7 @@
   delay-ms = <0>;                   // 10
 };
 
-#define U_MOUSE_MOVE_MAX 800   // 600
+#define U_MOUSE_MOVE_MAX 1400   // 600
 #define U_MOUSE_SCROLL_MAX 10    // 10
 
 #undef MOVE_UP
