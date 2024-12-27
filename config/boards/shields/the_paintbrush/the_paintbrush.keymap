@@ -9,6 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#include <dt-bindings/zmk/pointing.h>
+
 // Enable ARDUX Left
 #define ARDUX_LEFT 1
 #define ARDUX_COLEMAK 1
@@ -38,35 +44,6 @@
 
 
 
-//#define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
-//#undef MOVE_UP
-//#undef MOVE_DOWN
-//#undef MOVE_LEFT
-//#undef MOVE_RIGHT
-//#define MOVE_UP MOVE_VERT(-U_MOUSE_MOVE_MAX)
-//#define MOVE_DOWN MOVE_VERT(U_MOUSE_MOVE_MAX)
-//#define MOVE_LEFT MOVE_HOR(-U_MOUSE_MOVE_MAX)
-//#define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
-//
-//&mmv {
-//  time-to-max-speed-ms = <0>;             /* <--- How long time until max speed is reached (default: 500) */
-//};
-//
-//#define U_MOUSE_SCROLL_MAX 25                    /* <--- New max speed setting (default: 10) */
-//
-//#undef SCROLL_UP
-//#undef SCROLL_DOWN
-//#undef SCROLL_LEFT
-//#undef SCROLL_RIGHT
-//#define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
-//#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
-//#define SCROLL_LEFT SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
-//#define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
-//
-//&mwh {
-//  time-to-max-speed-ms = <0>;                 /* <--- How long time until max speed is reached */
-//  acceleration-exponent=<2>;
-//}
 
 
 &mmv {
